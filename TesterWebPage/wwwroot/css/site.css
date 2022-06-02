@@ -1,0 +1,45 @@
+html {
+  font-size: 14px;
+  color: lightgray;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  background-color: black;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: black;
+  color: lightgray;
+}
+
+#animationContainer {
+    background-color: grey;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border: 5px solid gold;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.footer {
+    display: none;
+}
+
+.container {
+    position: relative;
+}
+
+.embeddedVideo {
+    margin-bottom: 100px;
+}

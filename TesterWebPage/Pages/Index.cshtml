@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This app is for testing Visual Studio</p>
+</div>
+
+
+<div class="embeddedVideo">
+    <iframe width="956" height="538" src="https://www.youtube.com/embed/_TTqjLv0PYI?list=PLAdwl9xZlNTB4pHCmi81eG2U_CB93Q5eF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<p class="text-center">Click the Circle to Start</p>
+<div id="animationContainer">
+    <div id="animatedCircle" onclick="beginAnimation()"></div>
+</div>
